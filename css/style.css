@@ -1967,3 +1967,23 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+
+.list-check {
+  list-style: none;
+  padding-left: 0;
+}
+
+.list-check li {
+  position: relative;
+  padding-left: 30px;
+  margin-bottom: 15px;
+}
+
+.list-check li:before {
+  content: '✓';
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-size: 18px;
+  color: #28a745;
+}
