@@ -1987,3 +1987,9 @@ textarea.form-control {
   font-size: 18px;
   color: #28a745;
 }
+
+.img-medium {
+  max-width: 400px;
+  width: 100%;
+  height: auto;
+}
