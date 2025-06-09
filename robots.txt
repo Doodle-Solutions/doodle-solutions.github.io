@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://awarediafoundation.org/sitemap.xml
+
+# Allow all search engines to crawl all content
+# No restrictions for this non-profit website 
