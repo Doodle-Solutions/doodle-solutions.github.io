@@ -1993,3 +1993,31 @@ textarea.form-control {
   width: 100%;
   height: auto;
 }
+
+/* Custom Navbar Dropdown Styling */
+.ftco-navbar-light .navbar-nav > .nav-item.dropdown .dropdown-menu {
+  background: #222; /* dark background for dropdown */
+  border: none;
+  border-radius: 0 0 8px 8px;
+  margin-top: 0;
+  min-width: 220px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.15);
+}
+
+.ftco-navbar-light .navbar-nav > .nav-item.dropdown .dropdown-menu .dropdown-item {
+  color: #fff;
+  background: transparent;
+  font-size: 15px;
+  padding: 12px 24px;
+  transition: background 0.2s, color 0.2s;
+}
+
+.ftco-navbar-light .navbar-nav > .nav-item.dropdown .dropdown-menu .dropdown-item:hover,
+.ftco-navbar-light .navbar-nav > .nav-item.dropdown .dropdown-menu .dropdown-item:focus {
+  background: #f7ca44;
+  color: #222;
+}
+
+.ftco-navbar-light .navbar-nav > .nav-item.dropdown .dropdown-toggle::after {
+  border-top-color: #f7ca44;
+}
