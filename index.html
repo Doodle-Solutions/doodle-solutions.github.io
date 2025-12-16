@@ -1,27 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Awaredia Innovations - Transforming Health Awareness in India</title>
+    <title>Awaredia Foundation - Transforming Health Awareness in India</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Awaredia Innovations educates and empowers individuals about nutrition, food labels, and health awareness throughout India, ensuring a healthier future.">
+    <meta name="description" content="Awaredia Foundation educates and empowers individuals about nutrition, food labels, and health awareness throughout India, ensuring a healthier future.">
     
     <!-- Keywords to improve search for "awaredia foundation" -->
-    <meta name="keywords" content="Awaredia Innovations, Awaredia, health awareness India, nutrition education, food labels, protein awareness, health foundation India">
+    <meta name="keywords" content="Awaredia Foundation, Awaredia, health awareness India, nutrition education, food labels, protein awareness, health foundation India">
     
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://awarediainnovations.org/">
-    <meta property="og:title" content="Awaredia Innovations - Transforming Health Awareness in India">
-    <meta property="og:description" content="Awaredia Innovations educates and empowers individuals about nutrition, food labels, and health awareness throughout India, ensuring a healthier future.">
-    <!-- <meta property="og:image" content="https://awarediainnovations.org/images/og-image.jpg"> -->
+    <meta property="og:url" content="https://awarediafoundation.org/">
+    <meta property="og:title" content="Awaredia Foundation - Transforming Health Awareness in India">
+    <meta property="og:description" content="Awaredia Foundation educates and empowers individuals about nutrition, food labels, and health awareness throughout India, ensuring a healthier future.">
+    <!-- <meta property="og:image" content="https://awarediafoundation.org/images/og-image.jpg"> -->
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://awarediainnovations.org/">
-    <meta property="twitter:title" content="Awaredia Innovations - Transforming Health Awareness in India">
-    <meta property="twitter:description" content="Awaredia Innovations educates and empowers individuals about nutrition, food labels, and health awareness throughout India, ensuring a healthier future.">
-    <!-- <meta property="twitter:image" content="https://awarediainnovations.org/images/og-image.jpg"> -->
+    <meta property="twitter:url" content="https://awarediafoundation.org/">
+    <meta property="twitter:title" content="Awaredia Foundation - Transforming Health Awareness in India">
+    <meta property="twitter:description" content="Awaredia Foundation educates and empowers individuals about nutrition, food labels, and health awareness throughout India, ensuring a healthier future.">
+    <!-- <meta property="twitter:image" content="https://awarediafoundation.org/images/og-image.jpg"> -->
     
     <!-- Favicon -->
     <link rel="icon" type="image/jpeg" href="images/favicon.jpg">
@@ -77,7 +77,7 @@
         </div>
         <div class="col-md-6 welcome-text">
           <h2 class="display-4 mb-3">Who Are We?</h2>
-          <p class="lead">Awaredia Innovations is a dedicated non-profit organization working towards creating a healthier and more informed India.</p>
+          <p class="lead">Awaredia Foundation is a dedicated non-profit organization working towards creating a healthier and more informed India.</p>
           <p class="mb-4">Our core mission is to educate individuals about nutrition, food labels, protein consumption, and the impact of food and fitness on overall health. We actively work to debunk myths and taboos surrounding health and nutrition while providing evidence-based knowledge.</p>
           <p class="mb-0"><a href="about.html" class="btn btn-primary px-3 py-2">Learn More</a></p>
         </div>
@@ -284,7 +284,7 @@
       <div class="row mb-5">
         <div class="col-md-6 col-lg-6">
           <h3 class="heading-section">About Us</h3>
-          <p class="lead">Awaredia Innovations is a dedicated non-profit organization working towards creating a healthier and more informed India.</p>
+          <p class="lead">Awaredia Foundation is a dedicated non-profit organization working towards creating a healthier and more informed India.</p>
           <p class="mb-5">We educate individuals about nutrition, food labels, protein consumption, and the impact of food and fitness on overall health.</p>
           <p><a href="about.html" class="link-underline">Read More</a></p>
         </div>
@@ -293,7 +293,7 @@
             <h3 class="heading-section">Get Connected</h3>
               <ul>
                 <li><span class="icon icon-map-marker"></span><span class="text">New Delhi, India</span></li>
-                <li><a href="mailto:awarediainnovations@gmail.com"><span class="icon icon-envelope"></span><span class="text">awarediainnovations@gmail.com</span></a></li>
+                <li><a href="mailto:awarediafoundation@gmail.com"><span class="icon icon-envelope"></span><span class="text">awarediafoundation@gmail.com</span></a></li>
               </ul>
           </div>
         </div>
@@ -337,13 +337,8 @@
 
   <script>
     // Load the navigation
-    fetch('./nav.html') // Ensure the correct relative path
-      .then(response => {
-        if (!response.ok) {
-          throw new Error('Network response was not ok');
-        }
-        return response.text();
-      })
+    fetch('nav.html')
+      .then(response => response.text())
       .then(data => {
         document.getElementById('navigation-placeholder').innerHTML = data;
         
@@ -357,9 +352,6 @@
             document.getElementById("nav-home").classList.add("active");
           }
         }, 100);
-      })
-      .catch(error => {
-        console.error('Error loading navigation:', error);
       });
   </script>
 
@@ -368,11 +360,11 @@
   {
     "@context": "https://schema.org",
     "@type": "Organization",
-    "name": "Awaredia Innovations",
+    "name": "Awaredia Foundation",
     "alternateName": "Awaredia",
-    "url": "https://awarediainnovations.org",
-    "logo": "https://awarediainnovations.org/images/logo.png",
-    "description": "Awaredia Innovations is a dedicated non-profit organization working towards creating a healthier and more informed India through nutrition education, food label awareness, and health promotion.",
+    "url": "https://awarediafoundation.org",
+    "logo": "https://awarediafoundation.org/images/logo.png",
+    "description": "Awaredia Foundation is a dedicated non-profit organization working towards creating a healthier and more informed India through nutrition education, food label awareness, and health promotion.",
     "foundingDate": "2024",
     "address": {
       "@type": "PostalAddress",
@@ -381,11 +373,11 @@
     },
     "contactPoint": {
       "@type": "ContactPoint",
-      "email": "awarediainnovations@gmail.com",
+      "email": "awarediafoundation@gmail.com",
       "contactType": "General Inquiries"
     },
     "sameAs": [
-      "https://awarediainnovations.org"
+      "https://awarediafoundation.org"
     ],
     "areaServed": "India",
     "knowsAbout": [
